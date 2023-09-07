@@ -1,0 +1,40 @@
+Questions
+1. Overloading of the main method is possible or not?
+2. What is returned by the constructor, and how you can identify it from its declaration?
+3. Can we create a program without main method? How many main methods are allowed in Java Programs? 4. What are the six ways to use this keyword?
+5. Prove that multiple inheritance is not supported in Java?
+6. When to use aggregation and not composition and vice versa?
+7. How to override the static method?
+8. Give any real world example of using the covariant return type?
+9. Discuss different usages of Java super keyword?
+10. What is instance initializer block and why we use it?
+11. What are the different usages of final variable?
+12. What is a marker or tagged interface?
+13. What is runtime polymorphism or dynamic method dispatch?
+14. What is the difference between static and dynamic binding?
+15. How down-casting is possible in Java?
+16. What is the purpose of a private constructor?
+17. What is object cloning?
+18. Differentiate shallow copy from deep copy and implement each with an example.
+19. In your class context find the implementation of OOPs concepts.
+
+Answers:
+1. Overloading of the main method is not possible in Java.
+2. Constructors do not return values; they initialize objects based on their class name.
+3. A Java program must have a `main` method as the entry point, and only one `main` method is allowed.
+4. The `this` keyword is used in Java to refer to six different things: current class instance variables, current class instance methods, calling another constructor, returning the current class instance, passing an argument in the method, and passing an argument in the constructor.
+5. Java supports multiple inheritance through interfaces, not through classes, to avoid the "diamond problem."
+6. Use composition when one class is part of another class, and use aggregation when one class is associated with another but can exist independently.
+7. You cannot override a static method in Java; you can only hide it in subclasses.
+8. An example of a covariant return type is when a subclass overrides a method to return a more specific type than the overridden method in the superclass.
+9. The `super` keyword is used to call superclass constructors, access superclass members, and differentiate between superclass and subclass members.
+10. An instance initializer block is used to initialize instance variables and is executed before constructors. It's useful for sharing initialization code between constructors.
+11. Final variables in Java cannot be modified after initialization and are used for creating constants, parameters for anonymous classes, etc.
+12. A marker or tagged interface is an interface with no methods, used to indicate certain behaviors or capabilities to classes that implement it.
+13. Runtime polymorphism, or dynamic method dispatch, is a mechanism in which the method to be executed is determined at runtime based on the object's actual type.
+14. Static binding (early binding) is resolved at compile-time, while dynamic binding (late binding) is resolved at runtime.
+15. Down-casting in Java is possible when you have an object of a superclass, and you want to cast it to a subclass type using `(SubclassType)`.
+16. A private constructor is used to prevent the instantiation of a class from outside and is often used in singleton design patterns.
+17. Object cloning in Java is the process of creating a duplicate of an existing object. It can be achieved using the `clone()` method.
+18. Shallow copy duplicates the references to objects, while deep copy duplicates both references and the objects themselves. An example of each would involve copying objects with references to other objects.
+19. The implementation of OOPs concepts in your class context would require specific details about your class and its design. OOPs concepts include encapsulation, inheritance, polymorphism, and abstraction, and their implementation varies based on the specific problem and class structure.
