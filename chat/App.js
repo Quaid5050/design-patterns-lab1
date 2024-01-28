@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Text, SafeAreaView } from "react-native";
+import { Text, SafeAreaView, View } from "react-native";
 import RoomScreen from "./screens/RoomScreen";
 import CallScreen from "./screens/CallScreen";
 import JoinScreen from "./screens/JoinScreen";
@@ -48,7 +48,7 @@ export default  function App() {
   }
 
   return (
-    <SafeAreaView >{content}</SafeAreaView>
+    <View style={{flex:1, marginTop:50, backgroundColor:"gray"}}>{content}</View>
   );
 }
 
